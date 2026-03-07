@@ -12,7 +12,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_marginBottom="32dp"
-        android:textColor="@android:color/black"/>
+        android:textColor="?android:attr/textColorPrimary"/>
 
     <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/switchDarkMode"
@@ -20,7 +20,8 @@
         android:layout_height="wrap_content"
         android:text="Dark Mode"
         android:textSize="18sp"
-        android:layout_marginBottom="24dp"/>
+        android:layout_marginBottom="24dp"
+        android:textColor="?android:attr/textColorPrimary"/>
 
     <Button
         android:id="@+id/btnClearHistorySettings"

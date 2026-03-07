@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:padding="24dp">
+    android:padding="24dp"
+    android:background="?android:attr/windowBackground">
 
     <TextView
         android:layout_width="wrap_content"
@@ -12,7 +13,8 @@
         android:layout_marginTop="32dp"
         android:text="Scan Result"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="?attr/colorOnSurface" />
 
     <TextView
         android:id="@+id/tvResultValue"
@@ -20,30 +22,34 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:layout_marginBottom="32dp"
-        android:background="#F5F5F5"
+        android:background="?attr/colorSurfaceVariant"
         android:padding="16dp"
         android:text="Scanned text will appear here"
         android:textAlignment="center"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textColor="?attr/colorOnSurfaceVariant" />
 
     <Button
         android:id="@+id/btnCopy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
-        android:text="Copy to Clipboard" />
+        android:text="Copy to Clipboard"
+        style="@style/Widget.Material3.Button" />
 
     <Button
         android:id="@+id/btnOpenBrowser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
-        android:text="Open in Browser" />
+        android:text="Open in Browser"
+        style="@style/Widget.Material3.Button.TonalButton" />
 
     <Button
         android:id="@+id/btnBackHome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Back to Home" />
+        android:text="Back to Home"
+        style="@style/Widget.Material3.Button.TextButton" />
 
 </LinearLayout>

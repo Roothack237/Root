@@ -1,7 +1,14 @@
 <resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.QRCodeScannerApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- Dark Theme Colors -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">#252525</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
     </style>
 </resources>
